@@ -10,6 +10,7 @@ const blogCollection = defineCollection({
         author: reference('author'),
         pubDate: z.date(),
         type: z.string().optional(),
+        embed: z.string().optional(),
     }),
 });
 

@@ -66,6 +66,11 @@
           "title": "Intro",
           "name": "intro",
           "type": "string"
+        },
+        {
+          "title": "Embed",
+          "name": "enbed",
+          "type": "string"
         }
       ]
     }
