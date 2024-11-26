@@ -36,8 +36,9 @@ const author = await getEntry(entry.data.author);
             <PublishDate date={entry.data.pubDate} />
         </p>
     </div>
+
     {entry.data.image && 
-      <Image src={entry.data.image} width="full" height="full" alt="" loading="eager" decoding="sync" class="block relative mx-auto mt-10 object-cover h-72 md:h-[350px] image-shine rounded-[15px]" loading="eager" />
+      <Image src={entry.data.image} width="1280" height="720" alt="" loading="eager" decoding="sync" class="block relative mx-auto mt-10 object-cover h-72 md:h-[350px] md:w-[700px] image-shine rounded-[15px]" loading="eager" />
     }
     <div class="
         lg:px-0 pt-10 mb-5 mx-auto
@@ -53,6 +54,7 @@ const author = await getEntry(entry.data.author);
         prose-code:transition-all prose-code:duration-300 prose-code:text-pacamara-dark
         dark:prose-headings:text-pacamara-accent dark:prose-p:text-white/70 dark:prose-a:text-white dark:hover:prose-a:text-pacamara-accent dark:prose-strong:text-white dark:prose-li:text-white dark:prose-code:text-white dark:prose-td:text-white/70 dark:prose-hr:border-pacamara-accent/30 dark:prose-tr:border-pacamara-accent/30 dark:prose-thead:border-pacamara-accent/30
       ">
+      
       <Content />
   </div>
 </article>
