@@ -22,7 +22,59 @@ import SocialIcon from './SocialIcon.astro';
                 <SocialIcon socialUrl={config?.social?.blusky} socialType="blusky" />
                 <SocialIcon socialUrl={config?.social?.linkedin} socialType="linkedin" />
             </ul>
-            <div id="audienceful-B8XdKC"></div>
+            
+            <div id="mc_embed_shell">
+                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+                <style>
+                    #mc_embed_signup {
+                        font-family: 'Inter', sans-serif;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        padding: 20px;
+                    }
+                    #mc_embed_signup h2 {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #ff2975; /* Updated pink color */
+                        margin-bottom: 10px;
+                    }
+                    #mc_embed_signup form {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                    #mc_embed_signup input[type="text"], 
+                    #mc_embed_signup input[type="email"] {
+                        width: 30%;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                        font-size: 16px;
+                    }
+                    #mc_embed_signup input[type="submit"] {
+                        padding: 10px 20px;
+                        background-color: #f99d1b;
+                        color: #000;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                    #mc_embed_signup input[type="submit"]:hover {
+                        background-color: #ff7700;
+                    }
+                </style>
+            
+                <div id="mc_embed_signup">
+                    <h2>Teach Jenn Tech Newsletter Signup</h2>
+                    <form action="https://jennjunod.us13.list-manage.com/subscribe/post?u=309e54478770eacc0a58a8c1f&amp;id=504ce288ee&amp;f_id=00f839e8f0" method="post" target="_blank">
+                        <input type="text" name="FNAME" placeholder="First Name" />
+                        <input type="email" name="EMAIL" placeholder="Email" required />
+                        <input type="submit" value="Let's go! 😎" />
+                    </form>
+                </div>
+            </div>
 
             <div class="grow lg:text-right">
                 <span class="text-[14px] text-pacamara-dark/40 transition-all duration-300 dark:text-pacamara-white/40">
